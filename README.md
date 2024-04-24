@@ -97,7 +97,7 @@
 <table>
   <tbody>
 <!-- YOUTUBE:START --><tr><td><a href="https://youtube.com/playlist?list=PLU6m_Y0yk7jnmYUJuRCx5nl3F_hV-1rIs&si=kPWmDsM-Hi_mz4Fx"><img width="140px" src="http://drive.google.com/uc?export=view&id=1LzuEm56GfMb8DPXZ3A2GqevivMsnwqqY"></a></td>
-<td><a href="https://www.youtube.com/watch?v=JdJ2VBbYYTQ">Java oop concepts (java oop tutorial)</a><br/>Apr 10, 2024</td></tr>
+<td><a href="https://youtube.com/playlist?list=PLU6m_Y0yk7jnmYUJuRCx5nl3F_hV-1rIs&si=kPWmDsM-Hi_mz4Fx">Java oop concepts (java oop tutorial)</a><br/>Apr 10, 2024</td></tr>
 <tr><td><a href="https://youtube.com/playlist?list=PLU6m_Y0yk7jkVdsvVjIPPfFdw-_-KbTdw&si=SE0sJe1jBWLX3RpM"><img width="140px" src="http://drive.google.com/uc?export=view&id=1TZE6DKpvc1ethcVQ9kZ-G01Ovb6RjSGf"></a></td>
 <td><a href="https://youtube.com/playlist?list=PLU6m_Y0yk7jkVdsvVjIPPfFdw-_-KbTdw&si=SE0sJe1jBWLX3RpM">Java EE Springboot</a><br/>Apr 11, 2024</td></tr>
 <tr><td><a href="https://youtube.com/playlist?list=PLU6m_Y0yk7jljQ4m-kMMhfQf46mIiOfgy&si=4p3QYDsM4XhYcacR"><img width="140px" src="http://drive.google.com/uc?export=view&id=1Xm_LbgYPDLqgYO_gZ7rl1cfPqz7eHtA-"></a></td>
