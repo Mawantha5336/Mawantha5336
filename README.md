@@ -91,7 +91,7 @@
 <br/><br/>
 
 <p align="center" ><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></p>
-<h2 align="center">  My Latest Tutorials & Projects Videos</h2>
+<h2 align="center"> <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> My Latest Tutorials & Projects Videos <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"></h2>
 <br>
 <div align=center>
 <table>
@@ -117,7 +117,7 @@
 
 <div align="center">
     <h3 align="center">Support:</h3>
-<p align = "center"><a href="https://www.buymeacoffee.com/rahulmahesh62"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="45" width="170" alt="rahulmahesh62" /></a></p>
+<p align = "center"><a href="https://www.buymeacoffee.com/Mawanthadeeganu"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="45" width="170" alt="rahulmahesh62" /></a></p>
 </div>
 
 <br/>
