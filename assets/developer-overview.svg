@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="390" viewBox="0 0 640 390">
+  <defs>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="0.55" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" x2="1">
+      <stop stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22d3ee" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="headlineClip"><rect x="26" y="57" width="0" height="34"><animate attributeName="width" values="0;585;585" keyTimes="0;.55;1" dur="3.8s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="638" height="388" rx="18" fill="#07111f" stroke="#1e3856"/>
+  <rect x="1" y="1" width="638" height="388" rx="18" fill="none" stroke="url(#accent)" stroke-opacity="0.28">
+    <animate attributeName="stroke-opacity" values=".18;.45;.18" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- moving top telemetry line -->
+  <rect x="18" y="11" width="90" height="2" rx="1" fill="url(#accent)" filter="url(#glow)">
+    <animate attributeName="x" values="18;532;18" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <g font-family="monospace">
+    <text x="26" y="35" fill="#64748b" font-size="11" letter-spacing="2">DEVELOPER OVERVIEW</text>
+    <text x="590" y="35" text-anchor="end" fill="#86efac" font-size="11">LIVE <tspan>●<animate attributeName="opacity" values="1;.15;1" dur="1.2s" repeatCount="indefinite"/></tspan></text>
+  </g>
+
+  <!-- headline type/reveal animation -->
+  <g clip-path="url(#headlineClip)">
+    <text x="26" y="82" fill="#f8fafc" font-family="Arial,Segoe UI,sans-serif" font-size="24" font-weight="700">Building software that connects ideas, data and people</text>
+  </g>
+  <rect x="27" y="59" width="2" height="27" fill="#22d3ee" filter="url(#glow)">
+    <animate attributeName="x" values="27;598;598;27" keyTimes="0;.55;.8;1" dur="3.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.55;.56;1" dur="3.8s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="26" y="119" fill="#cbd5e1" font-family="Arial,Segoe UI,sans-serif" font-size="14">I’m <tspan fill="#ffffff" font-weight="700">Mawantha Deeganu</tspan>, a Software Engineer and Full-Stack Developer focused on</text>
+  <text x="26" y="141" fill="#cbd5e1" font-family="Arial,Segoe UI,sans-serif" font-size="14">modern web applications, AI-enabled systems, enterprise software and practical digital products.</text>
+
+  <!-- bullet rows -->
+  <g font-family="Arial,Segoe UI,sans-serif" font-size="13.2">
+    <g transform="translate(0 0)">
+      <circle cx="31" cy="184" r="4.5" fill="#22d3ee" filter="url(#glow)"><animate attributeName="r" values="3.5;5.5;3.5" dur="2.4s" begin="0s" repeatCount="indefinite"/></circle>
+      <text x="48" y="188" fill="#e2e8f0">🎓 <tspan font-weight="700" fill="#ffffff">BSc (Hons) Computer Science — First Class Honours</tspan></text>
+      <text x="48" y="207" fill="#94a3b8">Kingston University London</text>
+    </g>
+    <g>
+      <circle cx="31" cy="232" r="4.5" fill="#60a5fa" filter="url(#glow)"><animate attributeName="r" values="3.5;5.5;3.5" dur="2.4s" begin=".35s" repeatCount="indefinite"/></circle>
+      <text x="48" y="236" fill="#e2e8f0">🎓 <tspan font-weight="700" fill="#ffffff">BEng (Hons) Software Engineering — Second Upper Class</tspan></text>
+      <text x="48" y="255" fill="#94a3b8">IIC University of Technology</text>
+    </g>
+    <g>
+      <circle cx="31" cy="280" r="4.5" fill="#a78bfa" filter="url(#glow)"><animate attributeName="r" values="3.5;5.5;3.5" dur="2.4s" begin=".7s" repeatCount="indefinite"/></circle>
+      <text x="48" y="284" fill="#e2e8f0">🏢 <tspan font-weight="700" fill="#ffffff">Founder &amp; CEO — CodeXpro Solutions (Pvt) Ltd</tspan></text>
+    </g>
+    <g>
+      <circle cx="31" cy="316" r="4.5" fill="#22d3ee" filter="url(#glow)"><animate attributeName="r" values="3.5;5.5;3.5" dur="2.4s" begin="1.05s" repeatCount="indefinite"/></circle>
+      <text x="48" y="320" fill="#e2e8f0">🤖 Interested in <tspan font-weight="700" fill="#ffffff">AI systems, intelligent applications, full-stack engineering</tspan></text>
+      <text x="48" y="339" fill="#94a3b8">and applied research</text>
+    </g>
+    <g>
+      <circle cx="31" cy="364" r="4.5" fill="#22c55e" filter="url(#glow)"><animate attributeName="opacity" values=".35;1;.35" dur="1.8s" begin="1.4s" repeatCount="indefinite"/></circle>
+      <text x="48" y="368" fill="#e2e8f0">🌏 Based in <tspan font-weight="700" fill="#ffffff">Sri Lanka</tspan>, building for users and businesses beyond borders</text>
+    </g>
+  </g>
+
+  <!-- soft moving scan -->
+  <rect x="12" y="0" width="80" height="388" fill="url(#scan)" opacity="0.08" transform="skewX(-12)">
+    <animate attributeName="x" values="-120;700" dur="7.5s" repeatCount="indefinite"/>
+  </rect>
+</svg>

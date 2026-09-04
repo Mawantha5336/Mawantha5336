@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210">
+<rect width="1200" height="210" rx="20" fill="#07111f" stroke="#17304c"/>
+<g transform="translate(600 105)" fill="none"><ellipse rx="470" ry="72" stroke="#183b59"/><ellipse rx="330" ry="52" stroke="#27415f" stroke-dasharray="8 10"><animate attributeName="stroke-dashoffset" values="0;-72" dur="4s" repeatCount="indefinite"/></ellipse><circle r="34" stroke="#22d3ee" stroke-width="2"><animate attributeName="r" values="31;37;31" dur="2.2s" repeatCount="indefinite"/></circle></g>
+<circle cx="600" cy="105" r="8" fill="#22d3ee"><animate attributeName="opacity" values=".5;1;.5" dur="1.4s" repeatCount="indefinite"/></circle>
+<g fill="#0f1b2d" stroke-width="2"><circle cx="130" cy="105" r="28" stroke="#22d3ee"/><circle cx="295" cy="59" r="28" stroke="#60a5fa"/><circle cx="455" cy="151" r="28" stroke="#a78bfa"/><circle cx="745" cy="58" r="28" stroke="#22c55e"/><circle cx="905" cy="151" r="28" stroke="#38bdf8"/><circle cx="1070" cy="105" r="28" stroke="#a78bfa"/></g>
+<g fill="#e2e8f0" font-family="monospace" font-size="12" text-anchor="middle"><text x="130" y="109">WEB</text><text x="295" y="63">API</text><text x="455" y="155">DATA</text><text x="745" y="62">AI</text><text x="905" y="155">CLOUD</text><text x="1070" y="109">DEV</text><text x="600" y="160" fill="#64748b" font-size="11" letter-spacing="2">CONNECTED ENGINEERING STACK</text></g>
+<!-- animated signal particles on the two orbits -->
+<circle r="5" fill="#22d3ee"><animateMotion dur="7s" repeatCount="indefinite" path="M130 105 C250 12 445 20 600 33 C755 20 950 12 1070 105 C950 198 755 190 600 177 C445 190 250 198 130 105Z"/></circle>
+<circle r="4" fill="#a78bfa"><animateMotion dur="5s" begin="-2s" repeatCount="indefinite" path="M270 105 C360 45 490 53 600 53 C710 53 840 45 930 105 C840 165 710 157 600 157 C490 157 360 165 270 105Z"/></circle>
+</svg>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="410" viewBox="0 0 1040 410" role="img" aria-label="Animated technology core array">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#091827"/>
+      <stop offset="1" stop-color="#07111f"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#22c55e"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22d3ee" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="9"/></filter>
+    <style>
+      .title{font:700 18px 'Segoe UI',Arial,sans-serif;fill:#f8fafc;letter-spacing:.2px}
+      .eyebrow{font:700 8px 'Segoe UI',Arial,sans-serif;fill:#64748b;letter-spacing:2.4px}
+      .name{font:700 11px 'Segoe UI',Arial,sans-serif;fill:#e2e8f0}
+      .code{font:800 16px 'Segoe UI',Arial,sans-serif;fill:#f8fafc;letter-spacing:.3px}
+      .meta{font:700 7px 'Segoe UI',Arial,sans-serif;fill:#64748b;letter-spacing:1px}
+      .tile{fill:#0b1726;stroke:#1d3348;stroke-width:1}
+      .rail{stroke-width:3.5;stroke-linecap:round}
+      .pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .float{animation:float 4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .blink{animation:blink 2s ease-in-out infinite}
+      .dash{stroke-dasharray:8 12;animation:dash 6s linear infinite}
+      @keyframes pulse{0%,100%{opacity:.45;transform:scale(.85)}50%{opacity:1;transform:scale(1.12)}}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+      @keyframes blink{0%,100%{opacity:.3}50%{opacity:1}}
+      @keyframes dash{to{stroke-dashoffset:-120}}
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="1038" height="408" rx="18" fill="url(#bg)" stroke="#19324a"/>
+  <rect x="1" y="1" width="1038" height="4" rx="2" fill="url(#edge)"/>
+  <circle cx="865" cy="60" r="95" fill="#22d3ee" opacity=".05" filter="url(#soft)"/>
+  <circle cx="930" cy="345" r="105" fill="#8b5cf6" opacity=".04" filter="url(#soft)"/>
+
+  <text x="28" y="33" class="eyebrow">TECHNOLOGY CORE ARRAY / ACTIVE MODULES</text>
+  <text x="28" y="57" class="title">Animated engineering stack</text>
+  <text x="1008" y="34" text-anchor="end" class="meta" fill="#22c55e">21 MODULES ONLINE</text>
+  <circle cx="1009" cy="51" r="4" fill="#22c55e" class="pulse" filter="url(#glow)"/>
+
+  <path d="M28 76 H1010" stroke="#18344b"/>
+  <path d="M28 76 H1010" stroke="url(#edge)" opacity=".6" stroke-dasharray="14 20" class="dash"/>
+
+  <!-- scanning beam -->
+  <rect x="-180" y="82" width="180" height="296" fill="url(#scan)" opacity=".65">
+    <animate attributeName="x" values="-180;1040" dur="8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Row 1 -->
+  <g transform="translate(28 96)"><g class="float" style="animation-delay:0s"><rect class="tile" width="132" height="78" rx="12"/><path class="rail" d="M12 8 H50" stroke="#f97316"/><circle cx="108" cy="19" r="5" fill="#f97316" class="pulse"/><text x="14" y="38" class="code">JAVA</text><text x="14" y="58" class="name">Java</text><text x="14" y="70" class="meta">BACKEND</text></g></g>
+  <g transform="translate(170 96)"><g class="float" style="animation-delay:.2s"><rect class="tile" width="132" height="78" rx="12"/><path class="rail" d="M12 8 H50" stroke="#38bdf8"/><circle cx="108" cy="19" r="5" fill="#38bdf8" class="pulse"/><text x="14" y="38" class="code">PY</text><text x="14" y="58" class="name">Python</text><text x="14" y="70" class="meta">AI / DATA</text></g></g>
+  <g transform="translate(312 96)"><g class="float" style="animation-delay:.4s"><rect class="tile" width="132" height="78" rx="12"/><path class="rail" d="M12 8 H50" stroke="#facc15"/><circle cx="108" cy="19" r="5" fill="#facc15" class="pulse"/><text x="14" y="38" class="code">JS</text><text x="14" y="58" class="name">JavaScript</text><text x="14" y="70" class="meta">WEB</text></g></g>
+  <g transform="translate(454 96)"><g class="float" style="animation-delay:.6s"><rect class="tile" width="132" height="78" rx="12"/><path class="rail" d="M12 8 H50" stroke="#0ea5e9"/><circle cx="108" cy="19" r="5" fill="#0ea5e9" class="pulse"/><text x="14" y="38" class="code">TS</text><text x="14" y="58" class="name">TypeScript</text><text x="14" y="70" class="meta">WEB</text></g></g>
+  <g transform="translate(596 96)"><g class="float" style="animation-delay:.8s"><rect class="tile" width="132" height="78" rx="12"/><path class="rail" d="M12 8 H50" stroke="#22d3ee"/><circle cx="108" cy="19" r="5" fill="#22d3ee" class="pulse"/><text x="14" y="38" class="code">RE</text><text x="14" y="58" class="name">React</text><text x="14" y="70" class="meta">FRONTEND</text></g></g>
+  <g transform="translate(738 96)"><g class="float" style="animation-delay:1s"><rect class="tile" width="132" height="78" rx="12"/><path class="rail" d="M12 8 H50" stroke="#cbd5e1"/><circle cx="108" cy="19" r="5" fill="#cbd5e1" class="pulse"/><text x="14" y="38" class="code">NX</text><text x="14" y="58" class="name">Next.js</text><text x="14" y="70" class="meta">FULL STACK</text></g></g>
+  <g transform="translate(880 96)"><g class="float" style="animation-delay:1.2s"><rect class="tile" width="132" height="78" rx="12"/><path class="rail" d="M12 8 H50" stroke="#22c55e"/><circle cx="108" cy="19" r="5" fill="#22c55e" class="pulse"/><text x="14" y="38" class="code">ND</text><text x="14" y="58" class="name">Node.js</text><text x="14" y="70" class="meta">BACKEND</text></g></g>
+
+  <!-- Row 2 -->
+  <g transform="translate(28 187)"><g class="float" style="animation-delay:1.4s"><rect class="tile" width="132" height="78" rx="12"/><path class="rail" d="M12 8 H50" stroke="#94a3b8"/><circle cx="108" cy="19" r="5" fill="#94a3b8" class="pulse"/><text x="14" y="38" class="code">EX</text><text x="14" y="58" class="name">Express.js</text><text x="14" y="70" class="meta">API</text></g></g>
+  <g transform="translate(170 187)"><g class="float" style="animation-delay:1.6s"><rect class="tile" width="132" height="78" rx="12"/><path class="rail" d="M12 8 H50" stroke="#65a30d"/><circle cx="108" cy="19" r="5" fill="#65a30d" class="pulse"/><text x="14" y="38" class="code">SPR</text><text x="14" y="58" class="name">Spring Boot</text><text x="14" y="70" class="meta">BACKEND</text></g></g>
+  <g transform="translate(312 187)"><g class="float" style="animation-delay:1.8s"><rect class="tile" width="132" height="78" rx="12"/><path class="rail" d="M12 8 H50" stroke="#8b5cf6"/><circle cx="108" cy="19" r="5" fill="#8b5cf6" class="pulse"/><text x="14" y="38" class="code">PHP</text><text x="14" y="58" class="name">PHP</text><text x="14" y="70" class="meta">BACKEND</text></g></g>
+  <g transform="translate(454 187)"><g class="float" style="animation-delay:2s"><rect class="tile" width="132" height="78" rx="12"/><path class="rail" d="M12 8 H50" stroke="#f97316"/><circle cx="108" cy="19" r="5" fill="#f97316" class="pulse"/><text x="14" y="38" class="code">H5</text><text x="14" y="58" class="name">HTML5</text><text x="14" y="70" class="meta">FRONTEND</text></g></g>
+  <g transform="translate(596 187)"><g class="float" style="animation-delay:2.2s"><rect class="tile" width="132" height="78" rx="12"/><path class="rail" d="M12 8 H50" stroke="#38bdf8"/><circle cx="108" cy="19" r="5" fill="#38bdf8" class="pulse"/><text x="14" y="38" class="code">C3</text><text x="14" y="58" class="name">CSS3</text><text x="14" y="70" class="meta">FRONTEND</text></g></g>
+  <g transform="translate(738 187)"><g class="float" style="animation-delay:2.4s"><rect class="tile" width="132" height="78" rx="12"/><path class="rail" d="M12 8 H50" stroke="#06b6d4"/><circle cx="108" cy="19" r="5" fill="#06b6d4" class="pulse"/><text x="14" y="38" class="code">TW</text><text x="14" y="58" class="name">Tailwind</text><text x="14" y="70" class="meta">UI</text></g></g>
+  <g transform="translate(880 187)"><g class="float" style="animation-delay:2.6s"><rect class="tile" width="132" height="78" rx="12"/><path class="rail" d="M12 8 H50" stroke="#0ea5e9"/><circle cx="108" cy="19" r="5" fill="#0ea5e9" class="pulse"/><text x="14" y="38" class="code">SQL</text><text x="14" y="58" class="name">MySQL</text><text x="14" y="70" class="meta">DATABASE</text></g></g>
+
+  <!-- Row 3 -->
+  <g transform="translate(28 278)"><g class="float" style="animation-delay:2.8s"><rect class="tile" width="132" height="78" rx="12"/><path class="rail" d="M12 8 H50" stroke="#22c55e"/><circle cx="108" cy="19" r="5" fill="#22c55e" class="pulse"/><text x="14" y="38" class="code">MDB</text><text x="14" y="58" class="name">MongoDB</text><text x="14" y="70" class="meta">DATABASE</text></g></g>
+  <g transform="translate(170 278)"><g class="float" style="animation-delay:3s"><rect class="tile" width="132" height="78" rx="12"/><path class="rail" d="M12 8 H50" stroke="#34d399"/><circle cx="108" cy="19" r="5" fill="#34d399" class="pulse"/><text x="14" y="38" class="code">SUP</text><text x="14" y="58" class="name">Supabase</text><text x="14" y="70" class="meta">CLOUD DATA</text></g></g>
+  <g transform="translate(312 278)"><g class="float" style="animation-delay:3.2s"><rect class="tile" width="132" height="78" rx="12"/><path class="rail" d="M12 8 H50" stroke="#f59e0b"/><circle cx="108" cy="19" r="5" fill="#f59e0b" class="pulse"/><text x="14" y="38" class="code">FB</text><text x="14" y="58" class="name">Firebase</text><text x="14" y="70" class="meta">CLOUD</text></g></g>
+  <g transform="translate(454 278)"><g class="float" style="animation-delay:3.4s"><rect class="tile" width="132" height="78" rx="12"/><path class="rail" d="M12 8 H50" stroke="#ef4444"/><circle cx="108" cy="19" r="5" fill="#ef4444" class="pulse"/><text x="14" y="38" class="code">GIT</text><text x="14" y="58" class="name">Git</text><text x="14" y="70" class="meta">VERSIONING</text></g></g>
+  <g transform="translate(596 278)"><g class="float" style="animation-delay:3.6s"><rect class="tile" width="132" height="78" rx="12"/><path class="rail" d="M12 8 H50" stroke="#cbd5e1"/><circle cx="108" cy="19" r="5" fill="#cbd5e1" class="pulse"/><text x="14" y="38" class="code">GH</text><text x="14" y="58" class="name">GitHub</text><text x="14" y="70" class="meta">DEVOPS</text></g></g>
+  <g transform="translate(738 278)"><g class="float" style="animation-delay:3.8s"><rect class="tile" width="132" height="78" rx="12"/><path class="rail" d="M12 8 H50" stroke="#3b82f6"/><circle cx="108" cy="19" r="5" fill="#3b82f6" class="pulse"/><text x="14" y="38" class="code">VS</text><text x="14" y="58" class="name">VS Code</text><text x="14" y="70" class="meta">EDITOR</text></g></g>
+  <g transform="translate(880 278)"><g class="float" style="animation-delay:4s"><rect class="tile" width="132" height="78" rx="12"/><path class="rail" d="M12 8 H50" stroke="#a855f7"/><circle cx="108" cy="19" r="5" fill="#a855f7" class="pulse"/><text x="14" y="38" class="code">FG</text><text x="14" y="58" class="name">Figma</text><text x="14" y="70" class="meta">DESIGN</text></g></g>
+
+  <path d="M28 381 H1010" stroke="#18344b"/>
+  <circle cx="250" cy="381" r="3" fill="#22d3ee" class="blink"/>
+  <circle cx="520" cy="381" r="3" fill="#8b5cf6" class="blink" style="animation-delay:.8s"/>
+  <circle cx="790" cy="381" r="3" fill="#22c55e" class="blink" style="animation-delay:1.6s"/>
+  <text x="520" y="397" text-anchor="middle" class="meta">BUILD • CONNECT • AUTOMATE • SCALE</text>
+</svg>

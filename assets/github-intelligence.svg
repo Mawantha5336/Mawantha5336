@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Animated GitHub Intelligence Dashboard</title>
+  <desc id="desc">Professional animated engineering telemetry dashboard for Mawantha Deeganu's GitHub profile.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#081523"/>
+      <stop offset="1" stop-color="#06101c"/>
+    </linearGradient>
+    <linearGradient id="cyanLine" x1="0" x2="1">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" x2="1">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#22d3ee" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .t{font-family:Inter,Segoe UI,Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+      .muted{fill:#64748b}.body{fill:#cbd5e1}.white{fill:#f8fafc}.cyan{fill:#22d3ee}.violet{fill:#a78bfa}.green{fill:#34d399}
+      .label{font-size:13px;font-weight:700;letter-spacing:2.2px}.small{font-size:12px}.mid{font-size:15px}.big{font-size:25px;font-weight:800}.title{font-size:28px;font-weight:800}
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="518" rx="24" fill="#030811" stroke="#14324a"/>
+  <rect x="16" y="16" width="1168" height="488" rx="20" fill="url(#panel)" stroke="#0d2235"/>
+
+  <!-- animated top scanner -->
+  <rect x="-280" y="16" width="280" height="488" fill="url(#scan)" opacity=".7">
+    <animate attributeName="x" from="-280" to="1200" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Header -->
+  <circle cx="48" cy="49" r="7" fill="#34d399" filter="url(#glow)">
+    <animate attributeName="opacity" values=".3;1;.3" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+  <text x="68" y="44" class="t title white">GITHUB INTELLIGENCE</text>
+  <text x="68" y="67" class="mono small muted">ENGINEERING TELEMETRY // DEVELOPMENT SIGNALS // DELIVERY RHYTHM</text>
+  <text x="1130" y="45" text-anchor="end" class="mono label green">ONLINE</text>
+  <text x="1130" y="66" text-anchor="end" class="mono small muted">PROFILE NODE / MAWANTHA5336</text>
+  <line x1="36" y1="89" x2="1164" y2="89" stroke="#17364d"/>
+  <rect x="36" y="87" width="240" height="3" rx="1.5" fill="url(#cyanLine)">
+    <animate attributeName="x" values="36;900;36" dur="8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Card 1 -->
+  <g>
+    <rect x="36" y="112" width="348" height="238" rx="16" fill="#071421" stroke="#16354b"/>
+    <text x="58" y="142" class="mono label cyan">01 // CODE SIGNAL</text>
+    <text x="58" y="173" class="t big white">Build → Commit → Ship</text>
+    <text x="58" y="198" class="t small body">A continuous engineering loop focused on</text>
+    <text x="58" y="217" class="t small body">maintainable, production-oriented software.</text>
+
+    <g transform="translate(62 258)">
+      <line x1="0" y1="32" x2="264" y2="32" stroke="#15384f" stroke-width="2"/>
+      <path d="M0 32 L18 32 L28 12 L42 48 L58 22 L73 32 L92 32 L104 18 L119 42 L134 30 L154 30 L168 10 L184 50 L200 25 L216 32 L236 32 L246 18 L264 32" fill="none" stroke="#22d3ee" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" stroke-dasharray="460" stroke-dashoffset="460">
+        <animate attributeName="stroke-dashoffset" values="460;0;0" keyTimes="0;.55;1" dur="4.5s" repeatCount="indefinite"/>
+      </path>
+      <circle r="5" fill="#a78bfa" filter="url(#glow)">
+        <animateMotion dur="4.5s" repeatCount="indefinite" path="M0 32 L18 32 L28 12 L42 48 L58 22 L73 32 L92 32 L104 18 L119 42 L134 30 L154 30 L168 10 L184 50 L200 25 L216 32 L236 32 L246 18 L264 32"/>
+      </circle>
+    </g>
+    <text x="58" y="330" class="mono small muted">SIGNAL: ITERATIVE DELIVERY / CLEAN COMMITS / PRODUCT VALUE</text>
+  </g>
+
+  <!-- Card 2 -->
+  <g>
+    <rect x="402" y="112" width="362" height="238" rx="16" fill="#071421" stroke="#16354b"/>
+    <text x="424" y="142" class="mono label violet">02 // LANGUAGE RADAR</text>
+    <text x="424" y="173" class="t big white">Polyglot Engineering</text>
+    <text x="424" y="198" class="t small body">Frontend, backend, AI and data technologies</text>
+    <text x="424" y="217" class="t small body">working together as one delivery stack.</text>
+
+    <g transform="translate(472 281)">
+      <circle cx="0" cy="0" r="58" fill="none" stroke="#18394f"/>
+      <circle cx="0" cy="0" r="40" fill="none" stroke="#18394f" stroke-dasharray="4 6"/>
+      <circle cx="0" cy="0" r="22" fill="#071a29" stroke="#22d3ee"/>
+      <circle cx="0" cy="0" r="7" fill="#22d3ee" filter="url(#glow)">
+        <animate attributeName="r" values="5;9;5" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <g>
+        <circle cx="0" cy="-58" r="5" fill="#a78bfa"/><text x="10" y="-54" class="mono small body">TS / JS</text>
+        <circle cx="55" cy="18" r="5" fill="#22d3ee"/><text x="66" y="22" class="mono small body">REACT</text>
+        <circle cx="-36" cy="46" r="5" fill="#34d399"/><text x="-104" y="50" class="mono small body">PYTHON</text>
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="18s" repeatCount="indefinite"/>
+      </g>
+    </g>
+    <g transform="translate(594 252)">
+      <text x="0" y="0" class="mono small muted">CORE FOCUS</text>
+      <text x="0" y="24" class="t mid white">React / TypeScript</text>
+      <text x="0" y="48" class="t mid white">Node.js / APIs</text>
+      <text x="0" y="72" class="t mid white">Python / AI</text>
+      <text x="0" y="96" class="t mid white">Java / Spring</text>
+    </g>
+  </g>
+
+  <!-- Card 3 -->
+  <g>
+    <rect x="782" y="112" width="382" height="238" rx="16" fill="#071421" stroke="#16354b"/>
+    <text x="804" y="142" class="mono label green">03 // DELIVERY RHYTHM</text>
+    <text x="804" y="173" class="t big white">Engineer With Momentum</text>
+    <text x="804" y="198" class="t small body">Design, implement, validate and refine —</text>
+    <text x="804" y="217" class="t small body">with architecture and maintainability in mind.</text>
+
+    <g transform="translate(808 249)">
+      <rect x="0" y="0" width="326" height="14" rx="7" fill="#0d2537"/>
+      <rect x="0" y="0" width="86" height="14" rx="7" fill="#22d3ee">
+        <animate attributeName="width" values="72;296;124;260;86" dur="7s" repeatCount="indefinite"/>
+      </rect>
+      <text x="0" y="38" class="mono small muted">DESIGN</text>
+      <text x="94" y="38" class="mono small muted">BUILD</text>
+      <text x="178" y="38" class="mono small muted">VERIFY</text>
+      <text x="267" y="38" class="mono small muted">SHIP</text>
+    </g>
+
+    <g transform="translate(808 315)">
+      <circle cx="8" cy="0" r="5" fill="#34d399"><animate attributeName="opacity" values=".25;1;.25" dur="1.4s" repeatCount="indefinite"/></circle>
+      <text x="24" y="5" class="mono small body">FULL-STACK DELIVERY</text>
+      <circle cx="168" cy="0" r="5" fill="#22d3ee"><animate attributeName="opacity" values="1;.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+      <text x="184" y="5" class="mono small body">AI SYSTEMS</text>
+    </g>
+  </g>
+
+  <!-- Bottom intelligence bus -->
+  <rect x="36" y="373" width="1128" height="105" rx="15" fill="#06111d" stroke="#15354b"/>
+  <text x="58" y="402" class="mono label cyan">ENGINEERING BUS // ACTIVE FOCUS CHANNELS</text>
+  <g transform="translate(58 426)">
+    <line x1="0" y1="20" x2="1072" y2="20" stroke="#15384f" stroke-width="2"/>
+    <circle cx="0" cy="20" r="7" fill="#22d3ee" filter="url(#glow)"/>
+    <circle cx="275" cy="20" r="7" fill="#a78bfa" filter="url(#glow)"/>
+    <circle cx="548" cy="20" r="7" fill="#34d399" filter="url(#glow)"/>
+    <circle cx="814" cy="20" r="7" fill="#22d3ee" filter="url(#glow)"/>
+    <circle cx="1072" cy="20" r="7" fill="#a78bfa" filter="url(#glow)"/>
+    <circle cy="20" r="5" fill="#f8fafc" filter="url(#glow)">
+      <animate attributeName="cx" values="0;275;548;814;1072;0" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="49" class="mono small body">FULL-STACK</text>
+    <text x="245" y="49" class="mono small body">AI / ML</text>
+    <text x="512" y="49" class="mono small body">CLOUD</text>
+    <text x="760" y="49" class="mono small body">ARCHITECTURE</text>
+    <text x="1010" y="49" class="mono small body">PRODUCT</text>
+  </g>
+</svg>

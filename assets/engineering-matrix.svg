@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="1" stop-color="#0a1728"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.55" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#22c55e"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22d3ee" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="panel"><rect x="18" y="18" width="1164" height="434" rx="18"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="470" rx="22" fill="#02060d"/>
+  <rect x="18" y="18" width="1164" height="434" rx="18" fill="url(#bg)" stroke="#17324d" stroke-width="2"/>
+  <rect x="18" y="18" width="1164" height="4" rx="2" fill="url(#accent)">
+    <animate attributeName="opacity" values=".45;1;.45" dur="3.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <g clip-path="url(#panel)">
+    <rect x="-340" y="18" width="340" height="434" fill="url(#scan)" transform="skewX(-12)">
+      <animate attributeName="x" values="-340;1220" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <text x="48" y="58" fill="#8aa0b8" font-family="Inter,Segoe UI,Arial" font-size="12" letter-spacing="3">ENGINEERING CAPABILITY MATRIX</text>
+  <text x="48" y="86" fill="#f8fafc" font-family="Inter,Segoe UI,Arial" font-size="22" font-weight="700">Technology domains · live build profile</text>
+  <circle cx="1130" cy="62" r="5" fill="#22c55e" filter="url(#glow)">
+    <animate attributeName="r" values="4;7;4" dur="1.7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".5;1;.5" dur="1.7s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1146" y="67" text-anchor="end" fill="#86efac" font-family="Inter,Segoe UI,Arial" font-size="11" font-weight="700">ACTIVE STACK</text>
+
+  <!-- row helper background -->
+  <g font-family="Inter,Segoe UI,Arial">
+    <!-- Frontend -->
+    <rect x="44" y="112" width="1112" height="58" rx="11" fill="#091827" stroke="#17324d"/>
+    <rect x="44" y="112" width="8" height="58" rx="4" fill="#22d3ee">
+      <animate attributeName="opacity" values=".45;1;.45" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="76" cy="141" r="6" fill="#22d3ee" filter="url(#glow)"><animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/></circle>
+    <text x="96" y="136" fill="#f8fafc" font-size="15" font-weight="700">Frontend Engineering</text>
+    <text x="96" y="157" fill="#7dd3fc" font-size="11" letter-spacing="1.5">UI · WEB · EXPERIENCE</text>
+    <text x="330" y="138" fill="#dbeafe" font-size="14">React · TypeScript · JavaScript · Next.js · HTML5 · CSS3 · Tailwind CSS · Vite</text>
+    <rect x="330" y="150" width="770" height="5" rx="2.5" fill="#12243a"/>
+    <rect x="330" y="150" width="0" height="5" rx="2.5" fill="#22d3ee"><animate attributeName="width" values="0;730;680;730" dur="4.8s" repeatCount="indefinite"/></rect>
+    <text x="1125" y="157" fill="#67e8f9" font-size="11" text-anchor="end">WEB LAYER</text>
+
+    <!-- Backend -->
+    <rect x="44" y="178" width="1112" height="58" rx="11" fill="#091827" stroke="#17324d"/>
+    <rect x="44" y="178" width="8" height="58" rx="4" fill="#8b5cf6"><animate attributeName="opacity" values=".45;1;.45" dur="2.2s" repeatCount="indefinite"/></rect>
+    <circle cx="76" cy="207" r="6" fill="#a78bfa" filter="url(#glow)"><animate attributeName="r" values="4;7;4" dur="2.2s" repeatCount="indefinite"/></circle>
+    <text x="96" y="202" fill="#f8fafc" font-size="15" font-weight="700">Backend Engineering</text>
+    <text x="96" y="223" fill="#c4b5fd" font-size="11" letter-spacing="1.5">SERVICES · LOGIC · APIs</text>
+    <text x="330" y="204" fill="#ede9fe" font-size="14">Node.js · Express.js · Java · Spring Boot · PHP · REST APIs</text>
+    <rect x="330" y="216" width="770" height="5" rx="2.5" fill="#12243a"/>
+    <rect x="330" y="216" width="0" height="5" rx="2.5" fill="#8b5cf6"><animate attributeName="width" values="0;690;640;690" dur="5.2s" repeatCount="indefinite"/></rect>
+    <text x="1125" y="223" fill="#c4b5fd" font-size="11" text-anchor="end">SERVICE LAYER</text>
+
+    <!-- AI -->
+    <rect x="44" y="244" width="1112" height="58" rx="11" fill="#091827" stroke="#17324d"/>
+    <rect x="44" y="244" width="8" height="58" rx="4" fill="#22c55e"><animate attributeName="opacity" values=".45;1;.45" dur="1.9s" repeatCount="indefinite"/></rect>
+    <circle cx="76" cy="273" r="6" fill="#22c55e" filter="url(#glow)"><animate attributeName="r" values="4;7;4" dur="1.9s" repeatCount="indefinite"/></circle>
+    <text x="96" y="268" fill="#f8fafc" font-size="15" font-weight="700">AI &amp; Applied Computing</text>
+    <text x="96" y="289" fill="#86efac" font-size="11" letter-spacing="1.5">ML · INTELLIGENCE · RESEARCH</text>
+    <text x="330" y="270" fill="#dcfce7" font-size="14">Python · Scikit-learn · TensorFlow concepts · Recommendation systems · ML-assisted applications</text>
+    <rect x="330" y="282" width="770" height="5" rx="2.5" fill="#12243a"/>
+    <rect x="330" y="282" width="0" height="5" rx="2.5" fill="#22c55e"><animate attributeName="width" values="0;705;655;705" dur="4.4s" repeatCount="indefinite"/></rect>
+    <text x="1125" y="289" fill="#86efac" font-size="11" text-anchor="end">INTELLIGENCE</text>
+
+    <!-- Data -->
+    <rect x="44" y="310" width="1112" height="58" rx="11" fill="#091827" stroke="#17324d"/>
+    <rect x="44" y="310" width="8" height="58" rx="4" fill="#38bdf8"><animate attributeName="opacity" values=".45;1;.45" dur="2.4s" repeatCount="indefinite"/></rect>
+    <circle cx="76" cy="339" r="6" fill="#38bdf8" filter="url(#glow)"><animate attributeName="r" values="4;7;4" dur="2.4s" repeatCount="indefinite"/></circle>
+    <text x="96" y="334" fill="#f8fafc" font-size="15" font-weight="700">Data &amp; Cloud</text>
+    <text x="96" y="355" fill="#7dd3fc" font-size="11" letter-spacing="1.5">STORAGE · CLOUD · DATA</text>
+    <text x="330" y="336" fill="#dbeafe" font-size="14">MySQL · MongoDB Atlas · Supabase · Firebase</text>
+    <rect x="330" y="348" width="770" height="5" rx="2.5" fill="#12243a"/>
+    <rect x="330" y="348" width="0" height="5" rx="2.5" fill="#38bdf8"><animate attributeName="width" values="0;650;610;650" dur="5.6s" repeatCount="indefinite"/></rect>
+    <text x="1125" y="355" fill="#7dd3fc" font-size="11" text-anchor="end">DATA LAYER</text>
+
+    <!-- Tools -->
+    <rect x="44" y="376" width="1112" height="58" rx="11" fill="#091827" stroke="#17324d"/>
+    <rect x="44" y="376" width="8" height="58" rx="4" fill="#f59e0b"><animate attributeName="opacity" values=".45;1;.45" dur="2.1s" repeatCount="indefinite"/></rect>
+    <circle cx="76" cy="405" r="6" fill="#f59e0b" filter="url(#glow)"><animate attributeName="r" values="4;7;4" dur="2.1s" repeatCount="indefinite"/></circle>
+    <text x="96" y="400" fill="#f8fafc" font-size="15" font-weight="700">Engineering Tools</text>
+    <text x="96" y="421" fill="#fde68a" font-size="11" letter-spacing="1.5">BUILD · TEST · SHIP</text>
+    <text x="330" y="402" fill="#fef3c7" font-size="14">Git · GitHub · VS Code · NetBeans · Postman · Figma</text>
+    <rect x="330" y="414" width="770" height="5" rx="2.5" fill="#12243a"/>
+    <rect x="330" y="414" width="0" height="5" rx="2.5" fill="#f59e0b"><animate attributeName="width" values="0;675;625;675" dur="5s" repeatCount="indefinite"/></rect>
+    <text x="1125" y="421" fill="#fde68a" font-size="11" text-anchor="end">TOOLCHAIN</text>
+  </g>
+
+  <!-- tiny telemetry footer -->
+  <g transform="translate(48 446)">
+    <circle cx="0" cy="0" r="3" fill="#22d3ee"><animate attributeName="cx" values="0;1050;0" dur="8s" repeatCount="indefinite"/></circle>
+    <line x1="0" y1="0" x2="1050" y2="0" stroke="#17324d"/>
+  </g>
+</svg>

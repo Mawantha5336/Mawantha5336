@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="285" viewBox="0 0 520 285">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
+<rect x="1" y="1" width="518" height="283" rx="18" fill="#07111f" stroke="#1e3856"/>
+<text x="28" y="40" fill="#64748b" font-family="monospace" font-size="12" letter-spacing="2">CURRENT MISSION <tspan fill="#86efac">●<animate attributeName="opacity" values="1;.15;1" dur="1.2s" repeatCount="indefinite"/></tspan></text>
+<text x="28" y="74" fill="#f8fafc" font-family="Arial" font-size="23" font-weight="700">Engineer useful digital systems</text>
+<g font-family="Arial" font-size="14"><text x="54" y="122" fill="#cbd5e1">Design clean user experiences</text><text x="54" y="158" fill="#cbd5e1">Build reliable APIs &amp; data flows</text><text x="54" y="194" fill="#cbd5e1">Apply AI where it creates value</text><text x="54" y="230" fill="#cbd5e1">Ship maintainable software</text></g>
+<g fill="#22d3ee"><circle cx="31" cy="117" r="5"><animate attributeName="opacity" values=".3;1;.3" dur="2s" begin="0s" repeatCount="indefinite"/></circle><circle cx="31" cy="153" r="5"><animate attributeName="opacity" values=".3;1;.3" dur="2s" begin=".35s" repeatCount="indefinite"/></circle><circle cx="31" cy="189" r="5"><animate attributeName="opacity" values=".3;1;.3" dur="2s" begin=".7s" repeatCount="indefinite"/></circle><circle cx="31" cy="225" r="5"><animate attributeName="opacity" values=".3;1;.3" dur="2s" begin="1.05s" repeatCount="indefinite"/></circle></g>
+<rect x="28" y="257" width="464" height="4" rx="2" fill="#12263d"/><rect x="28" y="257" width="110" height="4" rx="2" fill="url(#g)"><animate attributeName="width" values="80;464;80" dur="4.5s" repeatCount="indefinite"/></rect>
+</svg>

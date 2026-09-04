@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="96" viewBox="0 0 1200 96">
+<defs><linearGradient id="g"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
+<rect width="1200" height="96" rx="18" fill="#07111f" stroke="#18304d"/>
+<rect x="0" y="0" width="70" height="2" fill="url(#g)"><animate attributeName="x" values="0;1130;0" dur="6s" repeatCount="indefinite"/></rect>
+<g font-family="Arial,Segoe UI,sans-serif" text-anchor="middle">
+<text x="150" y="37" fill="#64748b" font-size="12" letter-spacing="2">PRIMARY MODE</text><text x="150" y="63" fill="#e2e8f0" font-size="18" font-weight="700">FULL-STACK</text>
+<text x="450" y="37" fill="#64748b" font-size="12" letter-spacing="2">FOCUS</text><text x="450" y="63" fill="#22d3ee" font-size="18" font-weight="700">AI SYSTEMS</text>
+<text x="750" y="37" fill="#64748b" font-size="12" letter-spacing="2">BUILD STYLE</text><text x="750" y="63" fill="#e2e8f0" font-size="18" font-weight="700">PRODUCT-DRIVEN</text>
+<text x="1050" y="37" fill="#64748b" font-size="12" letter-spacing="2">STATUS</text><text x="1050" y="63" fill="#86efac" font-size="18" font-weight="700">ONLINE <tspan>◉<animate attributeName="opacity" values="1;.15;1" dur="1.2s" repeatCount="indefinite"/></tspan></text>
+</g><rect x="298" y="24" width="1" height="48" fill="#18304d"/><rect x="598" y="24" width="1" height="48" fill="#18304d"/><rect x="898" y="24" width="1" height="48" fill="#18304d"/>
+</svg>

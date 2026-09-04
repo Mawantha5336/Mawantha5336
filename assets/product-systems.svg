@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">Selected Systems and Product Work</title>
+<desc id="desc">Animated product systems grid featuring AI business intelligence, CodeXpro AI, enterprise systems and MediGo.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#081827"/></linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+  <linearGradient id="violet" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#a78bfa"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+  <linearGradient id="green" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#34d399"/><stop offset="1" stop-color="#22c55e"/></linearGradient>
+  <linearGradient id="pink" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f472b6"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="panelClip"><rect x="18" y="18" width="1164" height="614" rx="22"/></clipPath>
+  <style>
+    .t{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#e5edf7}.muted{fill:#7f93aa}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.card{fill:#091827;stroke:#19324b;stroke-width:1.5}.label{font-size:12px;letter-spacing:2px;font-weight:700}.name{font-size:23px;font-weight:800}.body{font-size:14px;fill:#b8c6d8}.tag{font-size:11px;font-weight:700;fill:#dce8f6}.tiny{font-size:9px;letter-spacing:1.5px}.barbg{fill:#10263a}.node{filter:url(#glow)}
+  </style>
+</defs>
+
+<rect x="1" y="1" width="1198" height="648" rx="24" fill="url(#bg)" stroke="#17324b" stroke-width="2"/>
+<g clip-path="url(#panelClip)">
+  <rect x="-220" y="0" width="220" height="650" fill="#22d3ee" opacity="0.025">
+    <animate attributeName="x" values="-220;1200" dur="7s" repeatCount="indefinite"/>
+  </rect>
+  <path d="M0 70 H1200" stroke="#14324b"/>
+  <path d="M0 607 H1200" stroke="#14324b"/>
+</g>
+
+<circle cx="43" cy="42" r="5" fill="#22d3ee" class="node"><animate attributeName="opacity" values=".25;1;.25" dur="1.8s" repeatCount="indefinite"/></circle>
+<text x="60" y="47" class="t mono label" fill="#22d3ee">SELECTED SYSTEMS / PRODUCT WORK</text>
+<text x="1140" y="46" text-anchor="end" class="t mono tiny muted">BUILD • SHIP • EVOLVE</text>
+
+<!-- CARD 1 -->
+<g>
+  <rect x="34" y="92" width="552" height="232" rx="18" class="card"/>
+  <rect x="34" y="92" width="5" height="232" rx="3" fill="url(#cyan)">
+    <animate attributeName="opacity" values=".35;1;.35" dur="2.6s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="68" cy="126" r="8" fill="#22d3ee" opacity=".9" class="node"><animate attributeName="r" values="6;9;6" dur="2s" repeatCount="indefinite"/></circle>
+  <text x="89" y="121" class="t mono label" fill="#22d3ee">AI PRODUCT / 01</text>
+  <text x="67" y="160" class="t name">AI-Powered Business Intelligence Assistant</text>
+  <text x="67" y="190" class="t body">Intelligent decision-support concept for analyzing business data,</text>
+  <text x="67" y="212" class="t body">summarizing trends, generating insights and assisting operational</text>
+  <text x="67" y="234" class="t body">planning through AI-enabled workflows.</text>
+  <g transform="translate(67 257)">
+    <rect width="48" height="24" rx="6" fill="#10283a" stroke="#22516a"/><text x="24" y="16" text-anchor="middle" class="t mono tag">AI</text>
+    <rect x="56" width="66" height="24" rx="6" fill="#10283a" stroke="#22516a"/><text x="89" y="16" text-anchor="middle" class="t mono tag">React</text>
+    <rect x="130" width="72" height="24" rx="6" fill="#10283a" stroke="#22516a"/><text x="166" y="16" text-anchor="middle" class="t mono tag">Node.js</text>
+    <rect x="210" width="70" height="24" rx="6" fill="#10283a" stroke="#22516a"/><text x="245" y="16" text-anchor="middle" class="t mono tag">Python</text>
+    <rect x="288" width="112" height="24" rx="6" fill="#10283a" stroke="#22516a"/><text x="344" y="16" text-anchor="middle" class="t mono tag">Data Analytics</text>
+  </g>
+  <rect x="67" y="299" width="474" height="4" rx="2" class="barbg"/><rect x="67" y="299" width="160" height="4" rx="2" fill="url(#cyan)"><animate attributeName="width" values="90;405;250;405" dur="5s" repeatCount="indefinite"/></rect>
+</g>
+
+<!-- CARD 2 -->
+<g>
+  <rect x="614" y="92" width="552" height="232" rx="18" class="card"/>
+  <rect x="614" y="92" width="5" height="232" rx="3" fill="url(#violet)"><animate attributeName="opacity" values=".35;1;.35" dur="2.9s" repeatCount="indefinite"/></rect>
+  <circle cx="648" cy="126" r="8" fill="#a78bfa" class="node"><animate attributeName="opacity" values=".4;1;.4" dur="1.6s" repeatCount="indefinite"/></circle>
+  <text x="669" y="121" class="t mono label" fill="#a78bfa">RESEARCH AI / 02</text>
+  <text x="647" y="160" class="t name">CodeXpro AI</text>
+  <text x="647" y="190" class="t body">Research-focused AI platform concept combining research chat, paper</text>
+  <text x="647" y="212" class="t body">analysis, literature support, methodology assistance and intelligent</text>
+  <text x="647" y="234" class="t body">academic productivity workflows.</text>
+  <g transform="translate(647 257)">
+    <rect width="48" height="24" rx="6" fill="#1a1731" stroke="#514180"/><text x="24" y="16" text-anchor="middle" class="t mono tag">AI</text>
+    <rect x="56" width="66" height="24" rx="6" fill="#1a1731" stroke="#514180"/><text x="89" y="16" text-anchor="middle" class="t mono tag">React</text>
+    <rect x="130" width="58" height="24" rx="6" fill="#1a1731" stroke="#514180"/><text x="159" y="16" text-anchor="middle" class="t mono tag">APIs</text>
+    <rect x="196" width="118" height="24" rx="6" fill="#1a1731" stroke="#514180"/><text x="255" y="16" text-anchor="middle" class="t mono tag">Research Tools</text>
+    <rect x="322" width="94" height="24" rx="6" fill="#1a1731" stroke="#514180"/><text x="369" y="16" text-anchor="middle" class="t mono tag">Full Stack</text>
+  </g>
+  <rect x="647" y="299" width="474" height="4" rx="2" class="barbg"/><rect x="647" y="299" width="120" height="4" rx="2" fill="url(#violet)"><animate attributeName="width" values="110;430;210;430" dur="5.6s" repeatCount="indefinite"/></rect>
+</g>
+
+<!-- CARD 3 -->
+<g>
+  <rect x="34" y="350" width="552" height="232" rx="18" class="card"/>
+  <rect x="34" y="350" width="5" height="232" rx="3" fill="url(#green)"><animate attributeName="opacity" values=".35;1;.35" dur="3.1s" repeatCount="indefinite"/></rect>
+  <circle cx="68" cy="384" r="8" fill="#34d399" class="node"><animate attributeName="r" values="6;9;6" dur="2.3s" repeatCount="indefinite"/></circle>
+  <text x="89" y="379" class="t mono label" fill="#34d399">ENTERPRISE / 03</text>
+  <text x="67" y="418" class="t name">Enterprise &amp; Business Systems</text>
+  <text x="67" y="448" class="t body">Web platforms, store-management software, desktop systems and</text>
+  <text x="67" y="470" class="t body">tailored digital solutions engineered for real operational needs</text>
+  <text x="67" y="492" class="t body">through CodeXpro Solutions.</text>
+  <g transform="translate(67 515)">
+    <rect width="66" height="24" rx="6" fill="#0d2b27" stroke="#256856"/><text x="33" y="16" text-anchor="middle" class="t mono tag">React</text>
+    <rect x="74" width="72" height="24" rx="6" fill="#0d2b27" stroke="#256856"/><text x="110" y="16" text-anchor="middle" class="t mono tag">Next.js</text>
+    <rect x="154" width="72" height="24" rx="6" fill="#0d2b27" stroke="#256856"/><text x="190" y="16" text-anchor="middle" class="t mono tag">Node.js</text>
+    <rect x="234" width="50" height="24" rx="6" fill="#0d2b27" stroke="#256856"/><text x="259" y="16" text-anchor="middle" class="t mono tag">SQL</text>
+    <rect x="292" width="92" height="24" rx="6" fill="#0d2b27" stroke="#256856"/><text x="338" y="16" text-anchor="middle" class="t mono tag">Supabase</text>
+  </g>
+  <rect x="67" y="557" width="474" height="4" rx="2" class="barbg"/><rect x="67" y="557" width="150" height="4" rx="2" fill="url(#green)"><animate attributeName="width" values="130;390;270;390" dur="5.2s" repeatCount="indefinite"/></rect>
+</g>
+
+<!-- CARD 4 -->
+<g>
+  <rect x="614" y="350" width="552" height="232" rx="18" class="card"/>
+  <rect x="614" y="350" width="5" height="232" rx="3" fill="url(#pink)"><animate attributeName="opacity" values=".35;1;.35" dur="2.7s" repeatCount="indefinite"/></rect>
+  <circle cx="648" cy="384" r="8" fill="#f472b6" class="node"><animate attributeName="opacity" values=".4;1;.4" dur="1.9s" repeatCount="indefinite"/></circle>
+  <text x="669" y="379" class="t mono label" fill="#f472b6">PRODUCT CONCEPT / 04</text>
+  <text x="647" y="418" class="t name">MediGo Concept</text>
+  <text x="647" y="448" class="t body">Location-aware healthcare product concept for discovering doctors,</text>
+  <text x="647" y="470" class="t body">booking appointments, navigating to providers and supporting digital</text>
+  <text x="647" y="492" class="t body">payment workflows in one user journey.</text>
+  <g transform="translate(647 515)">
+    <rect width="66" height="24" rx="6" fill="#2a1729" stroke="#704067"/><text x="33" y="16" text-anchor="middle" class="t mono tag">Mobile</text>
+    <rect x="74" width="56" height="24" rx="6" fill="#2a1729" stroke="#704067"/><text x="102" y="16" text-anchor="middle" class="t mono tag">Maps</text>
+    <rect x="138" width="92" height="24" rx="6" fill="#2a1729" stroke="#704067"/><text x="184" y="16" text-anchor="middle" class="t mono tag">Healthcare</text>
+    <rect x="238" width="74" height="24" rx="6" fill="#2a1729" stroke="#704067"/><text x="275" y="16" text-anchor="middle" class="t mono tag">Booking</text>
+    <rect x="320" width="46" height="24" rx="6" fill="#2a1729" stroke="#704067"/><text x="343" y="16" text-anchor="middle" class="t mono tag">UX</text>
+  </g>
+  <rect x="647" y="557" width="474" height="4" rx="2" class="barbg"/><rect x="647" y="557" width="125" height="4" rx="2" fill="url(#pink)"><animate attributeName="width" values="100;365;220;365" dur="5.8s" repeatCount="indefinite"/></rect>
+</g>
+
+<!-- bottom live telemetry -->
+<g opacity=".9">
+  <circle cx="65" cy="611" r="4" fill="#22d3ee"><animate attributeName="opacity" values=".25;1;.25" dur="1.5s" repeatCount="indefinite"/></circle>
+  <text x="80" y="615" class="t mono tiny muted">SYSTEM PORTFOLIO ONLINE</text>
+  <path d="M270 611 H1080" stroke="#16354d" stroke-width="2"/>
+  <circle cx="270" cy="611" r="4" fill="#22d3ee" filter="url(#glow)"><animate attributeName="cx" values="270;1080;270" dur="6s" repeatCount="indefinite"/></circle>
+</g>
+</svg>

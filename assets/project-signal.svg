@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="110" viewBox="0 0 1200 110">
+<defs><filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1200" height="110" rx="16" fill="#07111f" stroke="#17304c"/>
+<path d="M60 65h85l18-28 28 50 25-33 24 11h115l18-28 28 50 25-33 24 11h115l18-28 28 50 25-33 24 11h115l18-28 28 50 25-33 24 11h85" fill="none" stroke="#15354f" stroke-width="2"/>
+<path d="M60 65h85l18-28 28 50 25-33 24 11h115l18-28 28 50 25-33 24 11h115l18-28 28 50 25-33 24 11h115l18-28 28 50 25-33 24 11h85" fill="none" stroke="#22d3ee" stroke-width="2" stroke-dasharray="90 900" filter="url(#glow)"><animate attributeName="stroke-dashoffset" values="0;-990" dur="4s" repeatCount="indefinite"/></path>
+<text x="60" y="29" fill="#64748b" font-family="monospace" font-size="12" letter-spacing="2">PROJECT SIGNAL // IDEAS → ARCHITECTURE → CODE → PRODUCT</text>
+</svg>
